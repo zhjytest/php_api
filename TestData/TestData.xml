@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TestData>
+	<db>
+		<hostname>123.57.214.110</hostname>
+		<username>mysql630</username>
+		<password>YjCsXdL#@.a64L</password>
+		<dbname>630ver</dbname>
+	</db>
+	<login>
+		<phone>13693660670</phone>
+		<code>2310</code>
+	</login>
+	<activity>
+		<index>1</index>
+		<title>十一长租</title>
+		<city_id>1</city_id>
+		<h5_url>http://123.57.217.108/h5/activity.php</h5_url>
+		<act_s_time>1474560000</act_s_time>
+		<act_e_time>1483113600</act_e_time>
+		<join_time>1486711567</join_time>
+	</activity>
+	<sharecontent>
+		<ddid>3150</ddid>
+		<title>邀好友，各得15元现金</title>
+		<content>地铁太挤？打车太贵？就租一度共享汽车！现在认证就送最低15元现金红包+30元优惠券礼包！</content>
+		<url>http://test2.yiduyongche.com/activity-lx/share.html</url>
+	</sharecontent>
+	<yz>
+		<apiurl>http://123.57.217.108:6600/test.php?time=get_time</apiurl>
+		<apiurl1>http://123.57.217.108:6600/test.php?uptime=</apiurl1>
+		<exectime>21:30:00</exectime>
+		<beforetime>20:00:00</beforetime>
+		<aftertime>10:00:00</aftertime>
+	</yz>
+</TestData>
