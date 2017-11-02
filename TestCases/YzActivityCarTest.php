@@ -203,7 +203,7 @@ class YzActivityCarTest extends BaseCase{
 		$this->parms['action'] = action;
 		$this->parms['city'] = city;
 		$this->parms['city_id'] = city_id;
-		$this->rlt=$this->post_reslut($this->url,$this->parms);
+		$this->rlt=$this->post_reslut($this->url,$this->parms,tour_index);
 		$this->print_log('YzCarTest.php','test_yzactivitytourindex',$this->rlt,0) ;
 		$this->assertEquals($this->rlt['data']['dd']['car_activity']['title'],self::$pubdata['title']);
 		$this->assertEquals($this->rlt['data']['dd']['car_activity']['act_icon'],self::$pubdata['act_icon']);
