@@ -21,7 +21,7 @@ class YzACarTest extends BaseCase{
 	public static function setUpBeforeClass(){
 		$totle_times = get_time(); 	//获取服务器(108)时间
 		self::$times = explode(" ", $totle_times)[1] ;
-		echo "time::".self::$times ;	//2017-10-26 16:35:40
+		//echo "time::".self::$times ;	//2017-10-26 16:35:40
 		update_time(1) ;	//修改时间为21:30，在夜租时间内
 	}
 

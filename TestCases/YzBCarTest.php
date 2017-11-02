@@ -292,8 +292,8 @@ class YzBCarTest extends BaseCase{
 	public  static function tearDownAfterClass(){
 		//echo "是否修改回原来的时间：".self::$times ;
 		update_time(0,self::$times)	;	//修改为原来的时间
-		$curtime = exec("echo %time%") ;
-		echo $curtime ;
+		//$curtime = exec("echo %time%") ;
+		//echo $curtime ;
 
 	}
 
